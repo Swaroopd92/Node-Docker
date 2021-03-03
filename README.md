@@ -17,3 +17,5 @@ docker exec -it node-app bash
 docker rm node-app -fv
 ### Delete unused volume
 docker volume prune
+## Using docker-compose to run the container. Use --build to force a build
+docker-compose up -d --build
